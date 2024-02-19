@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (max-width: 767px) {
+
+  .details {
+    margin: 20px;
+  }
+    body,
+    html {
+      overflow-x: hidden;
+    }
+}
+
+body, html{
+  overflow-x: hidden;
+}
+
+/* Payment.css */
+
+.payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-heading {
+  font-size: 24px;
+  color: #333;
+}
+
+.total-container {
+  margin-top: 20px;
+}
+
+.total-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.payment-methods {
+  margin-top: 20px;
+}
+
+.payment-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.pay-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
